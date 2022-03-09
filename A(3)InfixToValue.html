@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Infix to Postfix</title>
+
+</head>
+
+<body CLASS="CONTENT">
+  <script src="./A(1)Source.js"></script>
+  <link rel="stylesheet" href="A(2)Style.css">
+
+  <script>
+    // const {Pilas, Colas} = require("./myADT");
+
+    const P = new Colas();
+    const pila = new Pilas();
+
+    function string_to_vector() {
+      const originalString = document.getElementById("input").value;
+      const operación = originalString.split(" ");
+
+      Q = erase_element_array(operación);
+
+      var postfixC = polish(Q, P, pila);
+      var postfixV = postfixC.showV();            // Queue to array
+
+      // Results show in HTML
+      var resultado = value_postfix(postfixV, pila);
+      document.getElementById("result").innerHTML = "<p> Resultado: " + resultado + "</p>";
+
+      // Results show in console
+      console.log(Q);
+      console.log("RESULTADO: " + value_postfix(postfixV, pila));
+
+    }
+
+  </script>
+
+  <p> Data Structure: </p>
+  <H1> Basic Calculator </H1> <br>
+
+  <div align="center">
+    <p> Enter an algebraic expression in infix notation: <br> (Separate each element by blank spaces)
+    </p>
+    <input id="input" placeholder="Algebraic expression" class="NAME"> <br><br>
+    <input type="button" CLASS="BOTON" value="Calculate" onclick=string_to_vector()><br><br>
+    <p id="result">
+      <!--Final result-->
+    </p>
+
+  </div>
+
+
+</body>
+
+</html>

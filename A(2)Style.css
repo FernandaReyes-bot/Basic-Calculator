@@ -1,0 +1,72 @@
+body.CONTENT {
+    background-color:rgb(235, 231, 220);
+}
+
+CENTER {
+    align-items: center;
+    align-content: center;
+}
+
+INPUT.BOTON { 
+    background-color: transparent;
+    text-align: center;
+    border: 8 PX;
+    font-family:Ebrima;
+    font-size:1em;
+    color:darkslategrey;
+    padding: 16px 32px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+INPUT.NAME{
+    WIDTH:30%;
+    align-content: center;
+    text-align: center;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    font-family:Ebrima;
+    color:darkslategrey;
+    font-size:1em;
+    background-color: #f1f1f1;
+}
+
+H3 {
+    color:darkslategrey;
+    text-align: CENTER;
+    font-family: Gisha;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 1em;
+    
+}
+H4 { 
+    color:darkslategrey;
+    font-family: Gisha;
+}
+
+H1 {
+    color:darksalmon;
+    font-weight: bold;
+    font-family: Verdana;
+    font-size: 3.5em;
+    text-align: center;
+    font-weight:bold;
+  }
+
+H2 {
+    color:teal ;
+    font-family: Ebrima;
+    text-align: left;
+    align-content: left;
+    font-size: 2em;
+}
+
+P {
+    color:black;
+    text-align: center;
+    font-family: Microsoft JhengHei;
+    margin:30px;
+    font-size:1.2em;
+}
