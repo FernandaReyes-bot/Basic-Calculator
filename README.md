@@ -1,2 +1,2 @@
 # Basic-Calculator
-Using JavaScript by using the algorithm Infix to Postfix and Postfix to Value
+This programe was made with the algorithm Infix to Postfix and Postfix to Value
